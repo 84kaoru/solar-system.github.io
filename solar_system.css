@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.container{
+    font-size: 10px;
+    width: 40em;
+    height: 40em;
+    position: relative;
+    overflow: hidden;
+}
+
+.son{
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(255, 204, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 3em white;
+}
+
