@@ -26,3 +26,18 @@ body{
     box-shadow: 0 0 3em white;
 }
 
+.earth, .moon{
+    position: absolute;
+    border-style: solid;
+    border-color: white transparent;
+    border-width: 0.1em 0.1em 0 0;
+    border-radius: 50%;
+}
+
+.earth{
+    top: 5em;
+    left: 5em;
+    width: 30em;
+    height: 30em;
+    animation: rahul 36.5s linear infinite;
+}
