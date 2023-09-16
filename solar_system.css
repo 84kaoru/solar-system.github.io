@@ -15,7 +15,7 @@ body{
     overflow: hidden;
 }
 
-.son{
+.sun{
     position: absolute;
     top: 15em;
     left: 15em;
@@ -40,4 +40,42 @@ body{
     width: 30em;
     height: 30em;
     animation: rahul 36.5s linear infinite;
+}
+
+.moon{
+    top: 0;
+    right: 0;
+    width: 8em;
+    height: 8em;
+    animation: rahul 5s linear infinite;
+}
+
+.earth::before,
+.moon::before{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+}
+
+.earth::before{
+    top: 2.8em;
+    right: 2.8em;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(80, 80, 201);
+}
+
+.moon::before{
+    top: 0.8em;
+    right: 0.2em;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: silver;
+}
+
+
+@keyframes rahul{
+    to{
+        transform: rotate(360deg);
+    }
 }
